@@ -22,24 +22,28 @@ function CreateOrder(props) {
         formJson["createdByUserName"] = userName;
         // console.log(formJson);
 
-        fetch(URL, {
-            method: "POST",
-            headers: {
-                "ApiKey": API_KEY,
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(formJson)
-        })
-        .then(res => res.json())
-        .then(resData => {
-            let newData = [...data];
-            resData["isSelected"] = false;
-            newData.push(resData);
-            setData(newData);
-        })
-        .then(alert('New Order Created.'))
-        .catch(console.log)
+        if (formJson['orderType'] === '' || formJson['customerName'] === '' || formJson['createdByUserName'] === '') {
+            alert('All fields required');
+        } else {
 
+            fetch(URL, {
+                method: "POST",
+                headers: {
+                    "ApiKey": API_KEY,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formJson)
+            })
+            .then(res => res.json())
+            .then(resData => {
+                let newData = [...data];
+                resData["isSelected"] = false;
+                newData.push(resData);
+                setData(newData);
+            })
+            .then(alert('New Order Created.'))
+            .catch(console.log)
+        }
         setButtonClick(false);
     }
 
