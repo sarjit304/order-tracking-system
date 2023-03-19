@@ -1,0 +1,29 @@
+#main-panel {
+    margin: 15px 0;
+    display: flex;
+    /* border-bottom: 1px solid lightgray; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#branding {
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+    color: grey;
+}
+
+#logo {
+    color: red;
+}
+
+h1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+#account-settings {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
