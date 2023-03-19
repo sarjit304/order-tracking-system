@@ -21,11 +21,11 @@ function DisplayOrderTable(props) {
         <table className='order-table'>
         <thead>
           <tr>
-            <th><Checkbox style={{ color: 'red'}} disabled/></th>
-            <th>Order ID</th>
-            <th>Creation Date</th>
-            <th className='editable'>Created By</th>
-            <th className='editable'>Order Type</th>
+            <th style={{width: 42}}><Checkbox style={{ color: 'red'}} disabled/></th>
+            <th style={{width: 280}}>Order ID</th>
+            <th style={{width: 170}}>Creation Date</th>
+            <th style={{width: 145}} className='editable'>Created By</th>
+            <th style={{width: 200}}className='editable'>Order Type</th>
             <th className='editable'>Customer</th>
             <th style={{ width: 203}}></th>
           </tr>
