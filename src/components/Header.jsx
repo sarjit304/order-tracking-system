@@ -10,7 +10,7 @@ function Header(props) {
     return <header id='main-panel'>
         <div id='branding' style={{display: 'flex'}}>
             <FitbitIcon id='logo' fontSize='large'/>
-            <h1>Red Tech</h1>
+            <h1>Home</h1>
         </div>
         <div id='account-settings'>
             
