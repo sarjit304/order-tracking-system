@@ -43,7 +43,7 @@ function DisplayOrderTable(props) {
                 })
             : <tr>
                 <td></td><td></td><td></td>
-                <td style={{textAlign: 'right'}}><CircularProgress /></td>
+                <td style={{textAlign: 'right'}}><CircularProgress /></td><td></td><td></td><td></td>
               </tr>}
         </tbody>
       </table>
