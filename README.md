@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Order Tracking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Order Tracking System is a web application that allows users to create, view, edit, and delete orders. With this application, users can easily manage their orders and keep track of all their transactions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Create new orders: Users can create new orders by filling out a form that includes fields for order id, username, customer name, and order type.
+* View existing orders: Users can view existing orders in a table format that displays the order id, username, customer name, and order type for each order.
+* Edit existing orders: Users can edit the details of an existing order by clicking on the edit button and updating the information in the form.
+* Delete orders: Users can delete a single or multiple orders at once by selecting the orders they want to delete and clicking on the 'delete selected' button.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with the Order Tracking System, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository
+2. Install the required dependencies by running the command npm install
+3. Start the server by running the command npm start
+4. Open a web browser and navigate to http://localhost:3000
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Order Tracking System was built using the following technologies:
 
-### `npm run build`
+* React
+* JavaScript
+* HTML
+* CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you would like to contribute to the Order Tracking System, please follow these steps:
 
-### `npm run eject`
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes and commit them to your branch
+3. Push your changes to your forked repository
+4. Create a pull request to merge your changes into the main repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Order Tracking System is licensed under the MIT License. See the `LICENSE` file for more information.
