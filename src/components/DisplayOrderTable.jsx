@@ -3,6 +3,8 @@ import './DisplayOrderTable.css'
 import EditableRow from './EditableRow';
 import ReadOnlyRow from './ReadOnlyRow';
 import Checkbox from '@mui/material/Checkbox';
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 function DisplayOrderTable(props) {
 
@@ -39,7 +41,10 @@ function DisplayOrderTable(props) {
                   <EditableRow key={item.orderId} item={item} handleSelectionChange={handleSelectionChange} setOrderToEditId={setOrderToEditId} URL={URL} API_KEY={API_KEY} setData={setData} ORDER_TYPES={ORDER_TYPES}/>:
                   <ReadOnlyRow key={item.orderId} item={item} handleSelectionChange={handleSelectionChange} setOrderToEditId={setOrderToEditId} />
                 })
-            : null}
+            : <tr>
+                <td></td><td></td><td></td>
+                <td style={{textAlign: 'right'}}><CircularProgress /></td>
+              </tr>}
         </tbody>
       </table>
     )
