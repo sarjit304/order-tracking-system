@@ -57,7 +57,7 @@ function EditableRow(props) {
 
     return <tr id={item.orderId}>
     <td>
-        <Checkbox style={{ color: 'red'}} onChange={() => handleSelectionChange(item.orderId)}/>
+        <Checkbox color='error' onChange={() => handleSelectionChange(item.orderId)}/>
     </td>
     <td>{item.orderId}</td>
     <td>{item.createdDate}</td>
