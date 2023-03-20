@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/order-tracking-system/static/css/main.c57385cc.css",
+    "main.js": "/order-tracking-system/static/js/main.ae8ac11d.js",
+    "index.html": "/order-tracking-system/index.html",
+    "main.c57385cc.css.map": "/order-tracking-system/static/css/main.c57385cc.css.map",
+    "main.ae8ac11d.js.map": "/order-tracking-system/static/js/main.ae8ac11d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c57385cc.css",
+    "static/js/main.ae8ac11d.js"
+  ]
+}
